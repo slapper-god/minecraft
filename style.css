@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('/uploads/2021/02/minecraft-bg.jpg') no-repeat center/cover;
+  color: #eee;
+}
+
+.block-header {
+  background-color: #2a472f;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #3c6e4f;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #a8e6a3;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #a8e6a3;
+}
+
+.hero-minecraft {
+  background-color: rgba(34, 52, 34, 0.9);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-minecraft h1 {
+  font-size: 40px;
+  color: #d9ffcc;
+}
+
+.hero-minecraft p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #388e3c;
+}
+
+.mc-gallery {
+  background-color: rgba(20, 30, 20, 0.85);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.mc-gallery h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #d9ffcc;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.mc-card {
+  background-color: #3c6e4f;
+  border-radius: 10px;
+  width: 260px;
+  padding: 15px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s;
+}
+
+.mc-card:hover {
+  transform: scale(1.05);
+}
+
+.mc-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.mc-card h3 {
+  margin: 5px 0;
+  color: #a8e6a3;
+}
+
+.mc-card p {
+  font-size: 14px;
+}
+
+.mc-tips {
+  background-color: rgba(26, 36, 26, 0.85);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.mc-tips h2 {
+  font-size: 28px;
+  color: #d9ffcc;
+  margin-bottom: 20px;
+}
+
+.mc-tips ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.mc-tips li {
+  margin-bottom: 10px;
+  color: #a8e6a3;
+}
+
+footer {
+  background-color: #1a2a1a;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .socials {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer a {
+  color: #a8e6a3;
+  text-decoration: none;
+}
